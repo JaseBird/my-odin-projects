@@ -10,6 +10,12 @@ Basic Recipe Site built with HTML and CSS only. This project serves to familiari
 - Semantic HTML
 - Accessibility Concerns
 
+## 🦉 Future Improvements
+| Description | Implemented | Date |
+| --- | :---: | :---: |
+| Add CCS | ❌ | - |
+| UI Improvements | ❌ | - |
+
 ## 🔩 Built With
 
 - HTML
