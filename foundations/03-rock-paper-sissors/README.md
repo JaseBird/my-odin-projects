@@ -14,3 +14,9 @@ In this project I have created the game of rock, paper or sissors using Javascri
 - HTML
 - CSS
 - Javascript
+
+## 🦉 Future Improvements
+| Description | Implemented | Date |
+| --- | :---: | :---: |
+| Add reset button | ❌ | - |
+| UI improvements | ❌ | - |
