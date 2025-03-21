@@ -10,12 +10,12 @@ Landing Page built with HTML and CSS only. This project serves to familiarise wi
 - Semantic HTML
 - Accessibility Concerns
 
-## 🦉 Future Improvements
-| Description | Implemented | Date |
-| --- | :---: | :---: |
-| Replace placeholder content | ❌ | - |
-
 ## 🔩 Built With
 
 - HTML
 - CSS
+
+## 🦉 Future Improvements
+| Description | Implemented | Date |
+| --- | :---: | :---: |
+| Replace placeholder content | ❌ | - |
