@@ -1,4 +1,4 @@
-# Etch A Sketch
+# Etch A Sketch ✏️
 
 In this project I have created a pretty neat toy to flex my Javascript DOM manipulation skills. It is a browser version of something between a sketchpad and an Etch-A-Sketch.
 
@@ -10,7 +10,7 @@ In this project I have created a pretty neat toy to flex my Javascript DOM manip
 - Reset grid
 - Rainbow colours
 
-## Future Improvements
+## 🦉 Future Improvements
 | Description | Implemented | Date |
 | --- | :---: | :---: |
 | Color picker | ❌ | - |
