@@ -1,0 +1,28 @@
+#header {
+    padding: 16px 0px;
+}
+
+.button {
+    background-color: #008CBA;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 4px solid darkblue;
+    justify-content: center;
+    align-content: center;
+}
+
+.grid-container div {
+    background-color: gainsboro;
+    flex: none;
+}
