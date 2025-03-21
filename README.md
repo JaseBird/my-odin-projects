@@ -25,6 +25,9 @@ This is to accurately reflect my knowledge of web development at the point of ta
 #
 🥈 **Foundations**
 
+> [!NOTE]
+> I created seperate repositories for the foundation projects as I learned to use github, I have since moved them all into this mono-repository but lost the original commit history. When viewing the commits for these projects ignore the date/time stamps. The full stack project commit history will be valid.
+
 | Project | Topic(s) | Repository | Preview | Rating |
 | --- | --- | --- | --- | --- |
 | **Recipe Site** | Command Lin Basics, Git Basics, Basic HTML | | | |
