@@ -22,13 +22,13 @@ This is to accurately reflect my knowledge of web development at the point of ta
 #
 🥈 **Foundation**
 
-| Project | Topic(s) | Repository | Preview | Rating | Progress |
-| --- | --- | --- | --- | --- | --- |
-| **Recipe Site** | Command Lin Basics, Git Basics, Basic HTML | | | | ✔️ |
-| **Landing Page** | CSS Cascade, CSS Flexbox | | | | ✔️ |
-| **Rock Paper Scissors** | JS Basics: Types, Functions and Conditionals | | | | ✔️ |
-| **Etch-a-Sketch** | JS Basics: Arrays, loops and DOM Manipulation | | | | ✔️ |
-| **Calculator** | JS Basics: Objects | | | | 🛠️ |
+| Project | Topic(s) | Repository | Preview | Rating |
+| --- | --- | --- | --- | --- |
+| **Recipe Site** | Command Lin Basics, Git Basics, Basic HTML | | | |
+| **Landing Page** | CSS Cascade, CSS Flexbox | | | |
+| **Rock Paper Scissors** | JS Basics: Types, Functions and Conditionals | | | |
+| **Etch-a-Sketch** | JS Basics: Arrays, loops and DOM Manipulation | | | |
+| **Calculator** | JS Basics: Objects | | | |
 
 #
 🥇 **Full Stack Ruby on Rails**
