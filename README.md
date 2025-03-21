@@ -40,3 +40,17 @@ This is to accurately reflect my knowledge of web development at the point of ta
 🥇 **Full Stack Ruby on Rails**
 > [!IMPORTANT]
 > I am currently working on the foundations section of the course, once I progress to full stack I will update this page to reflect my progress.
+
+## Commit types
+The commit type can include the following:
+- **build**: changes that affect the build system or external dependencies
+- **chore**: changes that do not relate to a fix or feature and don't modify src or test files (for example updating dependencies)
+- **ci**: continuous integration related
+- **docs**: updates to documentation such as a the README or other markdown files
+- **feat**: a new feature is introduced with the changes
+- **fix**: a bug fix has occurred
+- **perf**: performance improvements
+- **refactor**: refactored code that neither fixes a bug nor adds a feature
+- **revert**: reverts a previous commit
+- **style**: changes that do not affect the meaning of the code, likely related to code formatting such as white-space, missing semicolons, and so on.
+- **test**: including new or correcting previous tests
