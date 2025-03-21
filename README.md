@@ -32,8 +32,8 @@ This is to accurately reflect my knowledge of web development at the point of ta
 | --- | --- | :---: | :---: | :---: |
 | **Recipe Site** | Command Lin Basics, Git Basics, Basic HTML | [Code](https://github.com/JaseBird/my-odin-projects/tree/main/foundations/01-recipe-site) | | - |
 | **Landing Page** | CSS Cascade, CSS Flexbox | [Code](https://github.com/JaseBird/my-odin-projects/tree/main/foundations/02-landing-page) | | - |
-| **Rock Paper Scissors** | JS Basics: Types, Functions and Conditionals | [Code](https://github.com/JaseBird/my-odin-projects/tree/main/foundations/03-rock-paper-sissors) | | |
-| **Etch-a-Sketch** | JS Basics: Arrays, loops and DOM Manipulation | [Code](https://github.com/JaseBird/my-odin-projects/tree/main/foundations/04-etch-a-sketch) | | |
+| **Rock Paper Scissors** | JS Basics: Types, Functions and Conditionals | [Code](https://github.com/JaseBird/my-odin-projects/tree/main/foundations/03-rock-paper-sissors) | | - |
+| **Etch-a-Sketch** | JS Basics: Arrays, loops and DOM Manipulation | [Code](https://github.com/JaseBird/my-odin-projects/tree/main/foundations/04-etch-a-sketch) | | - |
 | **Calculator** | JS Basics: Objects | | | |
 
 #
