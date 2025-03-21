@@ -1,4 +1,6 @@
-![The Odin Project logo](/assets/top-header-h.png)
+<p align="center">
+  <img src="/assets/top-header-h.png" alt="The Odin Project Logo" width="500" />
+</p>
 
 [The Odin Project](https://www.theodinproject.com/) (**TOP**) provides a free open source web development curriculum. This repository serves as a compilation and showcase for all the projects that I have completed as part of the curriculum.
 
