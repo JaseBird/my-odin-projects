@@ -1,3 +1,4 @@
+![The Odin Project logo](/assets/top-header-h.png)
 
 [The Odin Project](https://www.theodinproject.com/) (**TOP**) provides a free open source web development curriculum. This repository serves as a compilation and showcase for all the projects that I have completed as part of the curriculum.
 
@@ -20,7 +21,7 @@ This is to accurately reflect my knowledge of web development at the point of ta
 - ⭐⭐⭐: Proud of these. Comprehensive feature set and well tested. A keystone piece! ✨
 
 #
-🥈 **Foundation**
+🥈 **Foundations**
 
 | Project | Topic(s) | Repository | Preview | Rating |
 | --- | --- | --- | --- | --- |
@@ -33,4 +34,4 @@ This is to accurately reflect my knowledge of web development at the point of ta
 #
 🥇 **Full Stack Ruby on Rails**
 
-I am currently working on the foundation section of the course, I have completed foundations I will update this table to reflect my progress.
+I am currently working on the foundations section of the course, once I progress to full stack I will update this page to reflect my progress.
