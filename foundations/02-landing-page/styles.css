@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 10px 25px;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.menu, .hero {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 0 400px;
+}
+
+.menu {
+    justify-content: space-between;
+}
+
+.hero {
+    justify-content: center;
+    gap: 200px;
+    padding: 100px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    gap: 48px;
+}
+
+.hero-title-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.info {
+    width: 350px;
+}
+
+.img {
+    width: 433px;
+    height: 287px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 48px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 36px;
+}
+.card {
+    width: 180px;
+    text-align: center;
+}
+
+.card-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
+    border: 5px solid #3882F6;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 250px;
+    background-color: #E5E7eb;
+    color: #1F2937;
+}
+
+.quote-text {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    display: flex;
+    justify-content: end;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 15px 400px;
+    font-size: 18px;
+    color: #E5E7eb;
+}
