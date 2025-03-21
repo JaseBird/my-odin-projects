@@ -1,0 +1,50 @@
+.title {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.flex-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.flex-container {
+    height: 150px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.result {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.button {
+    border: none;
+    background-color: #04AA6D;
+    border: 2px solid #04AA6D;
+    border-radius: 8px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: white; /* Green */
+    color: black;
+  }
