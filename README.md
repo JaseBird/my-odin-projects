@@ -29,9 +29,9 @@ This is to accurately reflect my knowledge of web development at the point of ta
 > I created seperate repositories for the foundation projects as I learned to use github, I have since moved them all into this mono-repository but lost the original commit history. When viewing the commits for these projects ignore the date/time stamps. The full stack project commit history will be valid.
 
 | Project | Topic(s) | Repository | Preview | Rating |
-| --- | --- | --- | --- | --- |
-| **Recipe Site** | Command Lin Basics, Git Basics, Basic HTML | | | |
-| **Landing Page** | CSS Cascade, CSS Flexbox | | | |
+| --- | --- | :---: | :---: | :---: |
+| **Recipe Site** | Command Lin Basics, Git Basics, Basic HTML | [Code](https://github.com/JaseBird/my-odin-projects/tree/main/foundations/01-recipe-site) | | - |
+| **Landing Page** | CSS Cascade, CSS Flexbox | [Code](https://github.com/JaseBird/my-odin-projects/tree/main/foundations/02-landing-page) | | - |
 | **Rock Paper Scissors** | JS Basics: Types, Functions and Conditionals | | | |
 | **Etch-a-Sketch** | JS Basics: Arrays, loops and DOM Manipulation | | | |
 | **Calculator** | JS Basics: Objects | | | |
