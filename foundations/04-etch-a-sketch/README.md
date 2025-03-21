@@ -10,15 +10,15 @@ In this project I have created a pretty neat toy to flex my Javascript DOM manip
 - Reset grid
 - Rainbow colours
 
+## 🔩 Built With
+
+- HTML
+- CSS
+- Javascript
+
 ## 🦉 Future Improvements
 | Description | Implemented | Date |
 | --- | :---: | :---: |
 | Color picker | ❌ | - |
 | Eraser | ❌ | - |
 | UI Improvements | ❌ | - |
-
-## 🔩 Built With
-
-- HTML
-- CSS
-- Javascript
