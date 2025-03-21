@@ -35,5 +35,5 @@ This is to accurately reflect my knowledge of web development at the point of ta
 
 #
 🥇 **Full Stack Ruby on Rails**
-
-I am currently working on the foundations section of the course, once I progress to full stack I will update this page to reflect my progress.
+> [!IMPORTANT]
+> I am currently working on the foundations section of the course, once I progress to full stack I will update this page to reflect my progress.
