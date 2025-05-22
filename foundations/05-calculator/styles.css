@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    font-family: sans-serif, Arial, Helvetica;
+    color: white;
+    
+}
+.display {
+    grid-column: span 4; /*taking 4 column size */
+    text-align: right;
+    font-size: 300%;
+    min-height: 80px;
+    padding: 20px;
+    
+}
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 10px; /* spacing between button */
+    background-color: rgb(28, 28, 28);
+    padding: 30px;
+    border-radius: 20px;
+    width: 400px;
+    
+}
+
+
+.calculator button {
+cursor: pointer;
+aspect-ratio: 1 / 1;
+border-radius: 50px;
+background-color: rgb(80, 80, 80);
+color: rgb(255, 255, 255);
+border: 0;
+font-size: 250%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+#zero {
+    grid-column: span 2;
+    border-radius: 50px; 
+    aspect-ratio: auto; 
+}
+.calculator button.top  {
+    background-color: rgb(212, 212, 212);
+    
+}
+.calculator button.operator  {
+    background-color: rgb(255, 149, 0);
+    
+}
+
+.calculator button:hover {
+
+    filter: brightness(110%); /* lighter color when button hovered */
+}
+
+.calculator button:active {
+    transform: scale(0.95); /* press effect on button */
+}
