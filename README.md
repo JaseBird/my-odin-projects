@@ -38,8 +38,9 @@ This is to accurately reflect my knowledge of web development at the point of ta
 
 #
 🥇 **Full Stack Ruby on Rails**
-> [!IMPORTANT]
-> I am currently working on the foundations section of the course, once I progress to full stack I will update this page to reflect my progress.
+| Project | Topic(s) | Repository | Preview | Rating |
+| --- | --- | :---: | :---: | :---: |
+| **Caesar Cipher** | Basic ruby programming, loops and arrays | [code](https://github.com/JaseBird/my-odin-projects/tree/main/ruby/caesar_cipher) | | - |
 
 ## Commit types
 The commit type can include the following:
