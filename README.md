@@ -30,17 +30,18 @@ This is to accurately reflect my knowledge of web development at the point of ta
 
 | Project | Topic(s) | Repository | Preview | Rating |
 | --- | --- | :---: | :---: | :---: |
-| **Recipe Site** | Command Lin Basics, Git Basics, Basic HTML | [Code](https://github.com/JaseBird/my-odin-projects/tree/main/foundations/01-recipe-site) | | - |
-| **Landing Page** | CSS Cascade, CSS Flexbox | [Code](https://github.com/JaseBird/my-odin-projects/tree/main/foundations/02-landing-page) | | - |
-| **Rock Paper Scissors** | JS Basics: Types, Functions and Conditionals | [Code](https://github.com/JaseBird/my-odin-projects/tree/main/foundations/03-rock-paper-sissors) | | - |
-| **Etch-a-Sketch** | JS Basics: Arrays, loops and DOM Manipulation | [Code](https://github.com/JaseBird/my-odin-projects/tree/main/foundations/04-etch-a-sketch) | | - |
-| **Calculator** | JS Basics: Objects | [code](https://github.com/JaseBird/my-odin-projects/tree/main/foundations/05-calculator) | | - |
+| **Recipe Site** | Command Lin Basics, Git Basics, Basic HTML | [Code](https://github.com/JaseBird/my-odin-projects/tree/main/foundations/01-recipe-site) | | ⭐ |
+| **Landing Page** | CSS Cascade, CSS Flexbox | [Code](https://github.com/JaseBird/my-odin-projects/tree/main/foundations/02-landing-page) | | ⭐ |
+| **Rock Paper Scissors** | JS Basics: Types, Functions and Conditionals | [Code](https://github.com/JaseBird/my-odin-projects/tree/main/foundations/03-rock-paper-sissors) | | ⭐ |
+| **Etch-a-Sketch** | JS Basics: Arrays, loops and DOM Manipulation | [Code](https://github.com/JaseBird/my-odin-projects/tree/main/foundations/04-etch-a-sketch) | | ⭐⭐ |
+| **Calculator** | JS Basics: Objects | [code](https://github.com/JaseBird/my-odin-projects/tree/main/foundations/05-calculator) | | ⭐ |
 
 #
 🥇 **Full Stack Ruby on Rails**
 | Project | Topic(s) | Repository | Preview | Rating |
 | --- | --- | :---: | :---: | :---: |
-| **Caesar Cipher** | Basic ruby programming, loops and arrays | [code](https://github.com/JaseBird/my-odin-projects/tree/main/ruby/caesar_cipher) | | - |
+| **Caesar Cipher** | Basic ruby programming, loops and arrays | [code](https://github.com/JaseBird/my-odin-projects/tree/main/ruby/caesar_cipher) | | ⭐ |
+| **Sub Strings** | Hash tables and type conversion | [code](https://github.com/JaseBird/my-odin-projects/tree/main/ruby/sub-strings) | | ⭐ |
 
 ## Commit types
 The commit type can include the following:
