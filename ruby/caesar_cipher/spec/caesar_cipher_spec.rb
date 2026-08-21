@@ -10,12 +10,12 @@ RSpec.describe 'Caesar Cipher' do
     end
 
     it 'loops from Z to A' do
-      expected_output = "stuv"
+      expected_output = 'stuv'
       expect(caesar_cipher('wxyz', 4)).to eq(expected_output)
     end
 
     it 'returns same case' do
-      expected_output = "YzAb"
+      expected_output = 'YzAb'
       expect(caesar_cipher('AbCd', 2)).to eq(expected_output)
     end
   end

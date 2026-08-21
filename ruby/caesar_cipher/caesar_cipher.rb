@@ -5,16 +5,16 @@ def caesar_cipher(string, offset)
   # 65 = A => 90 => Z, 97 = a => 122 = z
 
   # if string contains data
-  unless string.empty?
-    string.each_char.map do |char|
-      case char
-      when 'a'..'z'
-        ((char.ord - 'a'.ord - offset) % 26 + 'a'.ord).chr
-      when 'A'..'Z'
-        ((char.ord - 'A'.ord - offset) % 26 + 'A'.ord).chr
-      else
-        char
-      end
-    end.join
-  end
+  return if string.empty?
+
+  string.each_char.map do |char|
+    case char
+    when 'a'..'z'
+      ((char.ord - 'a'.ord - offset) % 26 + 'a'.ord).chr
+    when 'A'..'Z'
+      ((char.ord - 'A'.ord - offset) % 26 + 'A'.ord).chr
+    else
+      char
+    end
+  end.join
 end
