@@ -37,13 +37,14 @@ This is to accurately reflect my knowledge of web development at the point of ta
 | **Calculator** | JS Basics: Objects | [code](https://github.com/JaseBird/my-odin-projects/tree/main/foundations/05-calculator) | | ⭐ |
 
 #
-🥇 **Full Stack Ruby on Rails**
+🥇 **Ruby**
 | Project | Topic(s) | Repository | Preview | Rating |
 | --- | --- | :---: | :---: | :---: |
 | **Caesar Cipher** | Basic ruby programming, loops and arrays | [code](https://github.com/JaseBird/my-odin-projects/tree/main/ruby/caesar_cipher) | | ⭐ |
 | **Sub Strings** | Hash tables and type conversion | [code](https://github.com/JaseBird/my-odin-projects/tree/main/ruby/sub-strings) | | ⭐ |
 | **Stock Picker** | Array indexing and iteration | [code](https://github.com/JaseBird/my-odin-projects/tree/main/ruby/stock-picker)| | ⭐ |
 | **Bubble Sort** | Algorithmic problem solving | [code](https://github.com/JaseBird/my-odin-projects/tree/main/ruby/bubble-sort)| | ⭐ |
+| **Tic-Tac-Toe** | Objects and classes | [code](https://github.com/JaseBird/my-odin-projects/tree/main/ruby/tic-tac-toe)| | IN PROGRESS |
 
 ## Commit types
 The commit type can include the following:
