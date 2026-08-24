@@ -62,8 +62,12 @@ class Game
     return selection
   end
 
-  def game_draw()
-    
+  def switch_players()
+    if @current_player == @player_one
+      @current_player = @player_two
+    else
+      @current_player = @player_one
+    end
   end
 
   def start()
@@ -90,15 +94,8 @@ class Game
         break
       end
 
-      # increment player turn counter
       @current_player.update_turn_counter
-
-      # Swap players
-      if @current_player == @player_one
-        @current_player = @player_two
-      else
-        @current_player = @player_one
-      end
+      switch_players
     end
 
     display_game_over_message(game_state)
