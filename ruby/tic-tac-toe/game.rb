@@ -2,4 +2,7 @@ require_relative 'game-board'
 
 board = GameBoard.new
 
-board.display
+
+# === TESTING ===
+#board.place_piece(9, "X")
+#board.display
