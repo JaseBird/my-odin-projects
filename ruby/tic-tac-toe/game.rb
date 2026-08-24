@@ -94,7 +94,11 @@ class Game
       @current_player.update_turn_counter
 
       # Swap players
-      
+      if @current_player == @player_one
+        @current_player = @player_two
+      else
+        @current_player = @player_one
+      end
     end
 
     display_game_over_message(game_state)
