@@ -3,6 +3,14 @@ require_relative 'computer'
 require_relative 'player'
 
 class Game
-  computer = Computer.new
-  puts computer.create_code
+  def initialize()
+    @computer = Computer.new
+    @code = SecretCode.new(@computer.generate_code)
+    @player = Player.new
+  end
+
+  def start()
+    guess = @player.make_guess
+    p guess
+  end
 end
