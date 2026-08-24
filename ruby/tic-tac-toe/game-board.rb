@@ -15,8 +15,11 @@ class GameBoard
   end
 
   def place_piece(position, piece)
-    index = position - 1
-    @state[index] = piece
+    @state[position - 1] = piece
+  end
+
+  def space_available?(position)
+    @state[position - 1] == " "
   end
 
 end
