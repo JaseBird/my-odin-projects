@@ -22,4 +22,18 @@ class GameBoard
     @state[position - 1] == " "
   end
 
+  def winner?(piece)
+    # check whether this piece has a winning combination
+    winning_combinations = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]]
+
+    winning_combinations.any? do |combination|
+      combination.all? do |position|
+        @state[position] == piece
+      end
+    end
+  end
+
+  def full?()
+    @state.none?{ |position| position == " " }
+  end
 end

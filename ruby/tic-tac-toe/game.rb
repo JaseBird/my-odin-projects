@@ -11,7 +11,7 @@ class Game
   end
 
   def get_player_name(player_number)
-    puts "Player #{player_number}, enter your name: "
+    print "Player #{player_number}, enter your name: "
     name = gets.chomp
     return name
   end
@@ -27,12 +27,28 @@ class Game
     puts "#{@player_one.name} is playing #{@player_one.piece}"
     puts "#{@player_two.name} is playing #{@player_two.piece}"
     puts "\nHave a good game!"
+  end
+
+  def display_turn_message
     puts "-----------------------------------------"
+    puts "#{@current_player.name}'s Turn #{@current_player.turn_counter}:"
+    @board.display
+  end
+
+  def display_game_over_message(state)
+    puts "\n========================================="
+    @board.display
+    
+    if state == "WIN"
+      puts "#{@current_player.name} has won! Congratulations!"
+    elsif state == "DRAW"
+      puts "Game was a draw!"
+    end
   end
 
   def get_valid_position(current_player)
     valid_move = false
-    puts "#{current_player.name} can you please select a position:"
+    print "\n#{current_player.name} can you please select a position:"
     
     while !valid_move
       selection = gets.chomp.to_i
@@ -40,18 +56,48 @@ class Game
       if @board.space_available?(selection)
         valid_move = true
       else
-        puts "Selection not valid, please try again:"
+        print "Selection not valid, please try again:"
       end
     end
     return selection
   end
 
-  def start()
-    display_start_game_message
+  def game_draw()
     
-    # ask current player for a position and return only when valid
-    @board.place_piece(get_valid_position(@current_player), @current_player.piece)
-    @board.display
+  end
+
+  def start()
+    game_state = nil
+
+    display_start_game_message
+
+    # main game loop
+    loop do
+      display_turn_message
+
+      # ask current player for a position and return only when valid
+      @board.place_piece(get_valid_position(@current_player), @current_player.piece)
+
+      # win detection
+      if @board.winner?(@current_player.piece)
+        game_state = "WIN"
+        break
+      end
+
+      # Detect if the board is full
+      if @board.full?
+        game_state = "DRAW"
+        break
+      end
+
+      # increment player turn counter
+      @current_player.update_turn_counter
+
+      # Swap players
+      
+    end
+
+    display_game_over_message(game_state)
   end
 end
 
