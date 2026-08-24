@@ -6,4 +6,9 @@ class SecretCode
   def display_code()
     p "#{@secret_code}\n"
   end
+
+  def evaluate(guess)
+    puts "Secret Code = #{@secret_code}"
+    puts "Players guess = #{guess}"
+  end
 end
