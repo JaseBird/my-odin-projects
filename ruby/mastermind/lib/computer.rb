@@ -10,4 +10,10 @@ class Computer
     puts "game: computer has generate secret code"
     return code
   end
+
+  def set_code()
+    code = ["blue", "green", "red", "purple"]
+    puts "game: computer has generate secret code"
+    return code
+  end
 end
