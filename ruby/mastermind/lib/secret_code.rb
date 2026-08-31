@@ -1,7 +1,6 @@
 class SecretCode
   def initialize(code)
     @secret_code = code
-    @remaining_codes = @secret_code.dup
   end
 
   def display_code()
@@ -10,6 +9,7 @@ class SecretCode
 
   def evaluate_exact_matches(guess)
     remaining_positions = []
+    @remaining_codes = @secret_code.dup
     @exact_matches = [false, false, false, false]
 
     # Check for exact matching colours
