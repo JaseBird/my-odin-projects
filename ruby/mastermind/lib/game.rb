@@ -35,7 +35,7 @@ class Game
       if exact_matches.all?
         puts "congratultions you have guess the secret code!"
         @game_running = false
-      elsif @turn_counter == 7
+      elsif @turn_counter == 8
         puts "GAME OVER! You have run out of guesses, better luck next time!"
         @game_running = false
       end

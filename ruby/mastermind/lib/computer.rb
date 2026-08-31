@@ -7,7 +7,7 @@ class Computer
       code[i] = available_colours[rand(0..5)]
     end
     
-    puts "game: computer has generate secret code"
+    puts "game: computer has generate secret code! You have 8 guesses..."
     return code
   end
 
